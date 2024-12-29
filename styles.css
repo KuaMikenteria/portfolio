@@ -1,0 +1,198 @@
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        /* Navigation styles */
+        #nav-bar {
+            background-color: #333;
+            padding: 15px;
+        }
+
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        .nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav ul li a:hover {
+            color: #ff6347;
+        }
+
+        /* Introduction section */
+        .introduction {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        /* About Me Section */
+        .about {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .about img.pro {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 10px double black;  /* Added border style */
+        }
+
+        .about q {
+            display: block;
+            font-style: italic;
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+
+        .styling_2 {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .styling_2 li {
+            margin: 8px 0;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 50px 0;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .projects .proj_1, .projects .proj_2, .projects .proj_3, 
+        .projects .proj_4, .projects .proj_5, .projects .proj_6,
+        .projects .proj_7 {
+            margin-bottom: 30px;
+            display: inline-block;
+            width: 45%;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 15px;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .projects .proj_1:hover, .projects .proj_2:hover, 
+        .projects .proj_3:hover, .projects .proj_4:hover, 
+        .projects .proj_5:hover, .proj_6:hover,
+        .projects .proj_7:hover {
+            transform: scale(1.05);
+        }
+
+        .projects img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            border: 10px double black;  /* Added border style */
+        }
+
+        .projects h3 {
+            margin-top: 10px;
+            font-size: 1.3em;
+        }
+
+        .projects p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        /* Social Media Section */
+        .soc_med {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f8f8f8;
+        }
+
+        .soc_med h3 {
+            margin-bottom: 20px;
+        }
+
+        .soc_med ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .soc_med ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .soc_med ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .soc_med ul li a:hover {
+            color: #ff6347;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .projects .proj_1, .projects .proj_2, 
+            .projects .proj_3, .projects .proj_4, 
+            .projects .proj_5, .projects .proj_6,
+            .projects .proj_7 {
+                width: 100%;
+            }
+
+            .nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
+        /* Additional/Updated styles */
+        a:hover {
+            cursor: pointer;
+            background-color: aquamarine;
+            color: blue;
+        }
+
+        .pro {
+            height: 50%;
+            width: 30%;
+        }
+
+        .trad {
+            height: 70%;
+            width: 50%;
+        }
+
+        .proj_1, .proj_2, .proj_3, .proj_4, 
+        .proj_5, .proj_6, .proj_7 {
+            border: 5px solid black;
+            padding: 5px;
+            width: 80%;
+            display: flex;
+            margin: 10px;
+        }
